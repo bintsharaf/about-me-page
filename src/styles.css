@@ -1,0 +1,18 @@
+:root {
+   --primary-color: #137913;
+   --accent-color: rgb(212, 148, 29);
+   --gradient: linear-gradient(87.4deg, rgb(252, 238, 212) 1.9%, rgb(253, 230, 214) 49.7%, rgb(218, 252, 218) 100.5%);
+}
+body {
+   background: var(--gradient);
+   text-align: center;
+   margin: 50px auto;
+   max-width: 100%;
+}
+h2 {
+   font-size: 40px;
+   margin: 0;
+}
+h1 {
+   font-size: 60px;
+}
